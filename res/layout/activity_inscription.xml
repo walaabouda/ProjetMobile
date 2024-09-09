@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Inscription" >
+    
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+        
+        <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+            <TextView 
+               android:id="@+id/T1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Prenom : "
+                />
+            <EditText 
+               android:id="@+id/E1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="ENTREZ VOTRE PRENOM"
+               android:inputType="text"
+                />
+            
+        </LinearLayout>
+                <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+            <TextView 
+               android:id="@+id/T2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Nom : "
+              
+                />
+            <EditText 
+               android:id="@+id/E2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="ENTREZ VOTRE NOM"
+               android:inputType="text"
+               
+                />
+            
+        </LinearLayout>
+                <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+            <TextView 
+               android:id="@+id/T3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Login : "
+               
+                />
+            <EditText 
+               android:id="@+id/E3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="ENTREZ VOTRE LOGIN"
+               android:inputType="text"
+               
+                />
+            
+        </LinearLayout>
+                <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+            <TextView 
+               android:id="@+id/T4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Password : "
+                />
+            <EditText 
+               android:id="@+id/E4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="ENTREZ VOTRE Password"
+             
+                />
+            
+        </LinearLayout>
+        
+                <LinearLayout 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+            
+                    <Button 
+                        android:id="@+id/B2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="S'INSCRIRE"
+                        />
+                     <Button 
+                        android:id="@+id/B3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ANNULER"
+                        />
+                    
+                    </LinearLayout>
+                
+                
+              
+        </LinearLayout>
+        
+    
+
+   
+
+</LinearLayout>
